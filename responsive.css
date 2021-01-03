@@ -1,0 +1,39 @@
+                                    @media all and (max-width:920px) {
+                                    .header-area .logo-area {
+                                        float: none;
+                                        margin-bottom: 20px;
+                                        text-align: center;
+                                        width: 100%;
+                                    }
+                                    .header-area .login-area {
+                                        width: 100%;
+                                    }
+                                    .login-area form {
+                                        float: none;
+                                        width: 420px;
+                                        margin: auto;
+                                    }
+                                    .login-area .submit-area {
+                                        margin-right: 86px;
+                                    }
+                                    .main-area .picture-area {
+                                        width: 100%;
+                                        float: none;
+                                    }
+                                    ..main-area .signup-area {
+                                        width: 100%;
+                                    }
+                                    .signup-area .birthdy-select input[type="text"]:nth-of-type(1),
+                                    .signup-area .birthdy-select input[type="text"]:nth-of-type(2) {
+                                        width: 100%;
+                                    }
+                                }
+                                
+                                @media all and (max-width:550px) {
+                                    .login-area form {
+                                        width: auto;
+                                        display: inline-block;
+                                    }
+                                    .username-area input {
+                                        height: 100px;
+                                    }

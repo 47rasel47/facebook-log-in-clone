@@ -1,0 +1,322 @@
+body {
+    margin: 0;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*****header area*****/
+
+.header-area {
+    background-color: #3E5B99;
+    padding-top: 15px;
+    padding-bottom: 8px;
+}
+
+.container {
+    width: 65%;
+    margin: auto;
+}
+
+img {
+    width: 179px;
+    margin-top: 14px;
+}
+
+.header-area .logo-area {
+    width: 30%;
+    float: left;
+}
+
+.header-area .login-area {
+    width: 70%;
+    overflow: hidden;
+}
+
+.login-area label,
+.login-area input {
+    display: block;
+}
+
+.login-area .username-area {
+    float: left;
+    margin-right: -1px;
+}
+
+.login-area .password-area {
+    float: left;
+    overflow: hidden;
+    margin-right: -1px;
+}
+
+.login-area .submit-area {
+    overflow: hidden;
+    margin-right: 20px;
+    float: right;
+}
+
+.login-area label {
+    color: #EDFFFF;
+    font-size: 12px;
+}
+
+.login-area input {
+    margin-top: 5px;
+}
+
+.login-area a {
+    font-size: 12px;
+    color: #8CACC3;
+    text-decoration: none;
+}
+
+.login-area a:hover {
+    text-decoration: underline;
+}
+
+.submit-area input {
+    background-color: #5A74A8;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.login-area input[type="submit"] {
+    border: 1px solid #1D2A5B;
+    padding: 3px;
+}
+
+.login-area input[type="text"],
+.login-area input[type="password"] {
+    width: 85%;
+    height: 17px;
+}
+
+.login-area input[type="submit"]:hover {
+    background-color: #3B5998;
+}
+
+.login-area form {
+    float: right;
+}
+
+
+/*****main area*****/
+
+.main-area {
+    background: linear-gradient(#FEFEFF, #D4D9E9);
+}
+
+.main-area .picture-area {
+    width: 50%;
+    float: left;
+    margin-right: 8%;
+}
+
+.main-area .signup-area {
+    width: 42%;
+    overflow: hidden;
+}
+
+.picture-area img {
+    width: 100%;
+}
+
+.picture-area h3 {
+    margin-top: 45px;
+    color: #0E385F;
+    font-size: ;
+    margin-bottom: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    line-height: 29px;
+    font-size: 19px;
+}
+
+.signup-area h1 {
+    color: #333333;
+    font-family: sans-serif;
+    font-size: 35px;
+    margin-bottom: 8px;
+}
+
+.signup-area p {
+    color: #191313;
+    margin-top: 0;
+    margin-top: 8px;
+    font-size: 21px;
+    margin-bottom: 22px;
+}
+
+.signup-area .birthdy-select input[type="text"],
+.signup-area .birthdy-select input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+    border: 1px solid #BDC7D8;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.signup-area .birthdy-select input[type="text"]:nth-of-type(1),
+.signup-area .birthdy-select input[type="text"]:nth-of-type(2) {
+    width: 48%;
+}
+
+.signup-area .birthdy-select input[type="text"]:nth-of-type(1) {
+    margin-right: 2%;
+}
+
+.birthdy-select h4 {
+    margin: 10px 0px 5px;
+    color: #8e98a1;
+    font-size: 16px;
+}
+
+.birthdy-select select {
+    padding: 5px;
+    border: 1px solid #BDC7D8;
+}
+
+.gender-select h4 {
+    font-size: 16px;
+    margin: 12px 0;
+    color: #8e98a1;
+}
+
+.gender-select label {
+    font-size: 20px;
+    font-family: tahoma;
+    color: #1D2129;
+    margin-right: 8px;
+}
+
+.main-area a {
+    text-decoration: none;
+}
+
+.signup-area .ptag {
+    width: 80%;
+}
+
+.ptag p {
+    font-size: 12px;
+    font-family: tahoma;
+    color: #777777;
+}
+
+.signup-area p a:hover {
+    text-decoration: underline;
+}
+
+.signup-area input[type="submit"] {
+    padding: 8px 63px;
+    font-size: 17px;
+    cursor: pointer;
+    background: linear-gradient(#75B660, #5B8E47);
+    border: 1px solid #46812e;
+    color: #ffffff;
+    border-radius: 6px;
+    font-family: tahoma;
+    font-weight: bold;
+}
+
+.signup-area input[type="submit"]:hover {
+    background: linear-gradient(#5B8E47, #75B660);
+}
+
+.signup-area .lastp {
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #666666;
+}
+
+.signup-area .lastp a {
+    color: #385898;
+}
+
+
+/*****footer area*****/
+
+.footer-area {
+    font-size: 12px;
+    font-family: tahoma;
+}
+
+.footer-area a {
+    text-decoration: none;
+    color: #3858A5;
+}
+
+.footer-area ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-area ul li {
+    float: left;
+}
+
+.footer-top,
+.footer-bottom {
+    overflow: hidden;
+    ;
+}
+
+.footer-top ul li:first-child {
+    color: #737373;
+}
+
+.footer-top {
+    padding-top: 52px;
+    padding-bottom: 10px;
+}
+
+.footer-top ul li {
+    margin-right: 11px;
+}
+
+.ptag a {
+    color: #3858AF;
+}
+
+.footer-top img {
+    height: 15px;
+    width: 15px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #D3D7DB;
+    padding: 1px 6px;
+}
+
+.footer-bottom ul li {
+    margin-right: 21.8px;
+    margin-bottom: 10px;
+}
+
+hr {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.copyright {
+    color: #737373;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.birthdy-select img {
+    height: 17px;
+    width: 17px;
+    margin-left: 10px;
+}
+
+.footer-area a:hover {
+    text-decoration: underline;
+}
